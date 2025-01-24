@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+    font-family:  Poppins, sans-serif;
+    
+}
+#sec1{
+    display: grid;
+    justify-content: space-between;
+}
+
+body {
+    background:#000000 !important;
+    
+   }
+   
+   h3 {
+     color: #ec5626;
+   }
+   .text{
+       color: #ec5626;
+       text-align: center;
+   }
+   
+   
+   .folded-corner:hover .text{
+       visibility: visible;
+       color: #000000;;
+   }
+   .Services-tab{
+       margin-top:80px;
+   }
+   
+   /*
+     nav link items
+   */
+   .folded-corner{
+     padding: 60px 30px;
+     position: relative;
+     font-size: 100%;
+     text-decoration: none;
+     color: #999; 
+     background: transparent;
+     transition: all ease .5s;
+     border: 1px solid #ec5626;
+   }
+   .folded-corner:hover{
+       background-color: #ec5626;
+   }
+   
+   /*
+     paper fold corner
+   */
+   
+   .folded-corner:before {
+     content: "";
+     position: absolute;
+     top: 0;
+     right: 0;
+     border-style: solid;
+     border-width: 0 0px 0px 0;
+     border-color: #ddd #000;
+     transition: all ease .3s;
+   }
+   
+   /*
+     on li hover make paper fold larger
+   */
+   .folded-corner:hover:before {
+       background-color: #D00003;
+     border-width: 0 50px 50px 0;
+     border-color: #eee #000;
+     
+   }
+   
+   .service_tab_1{
+       background-color: #000;
+   }
+   .service_tab_1:hover .fa-icon-image{
+       color: #000;
+       transform:  scale(1.5);
+   }
+   
+   
+   .fa-icon-image{ 
+       color: #ec5626; 
+       display: inline-block; 
+       font-style: normal;
+       font-variant: normal;
+       font-weight: normal;
+       line-height: 1;
+       font-size-adjust: none;
+       font-stretch: normal;
+       
+       text-rendering: auto;
+       transition: all .65s linear 0s;
+       text-align: center;
+       transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+   }
+   body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu {
+    width: 44px;
+    position: relative;
+    top: -10px;
+    height: 3px;
+    background: #00000054;
+    box-shadow: 0px 11px #ff00006b, 1px 22px #66b78d;
+  }
+  
+  nav {
+    padding: 8px;
+    height: 44px;
+    color: #909090;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h2 {
+    font-weight: lighter;
+  }
+  
+  header {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  }
+  
+  .about {
+    text-align: center;
+    color: gray;
+    padding: 40px;
+  }
+  
+  .title {
+    font-size: 22px;
+    color: #2c2c2c;
+  }
+  
+  .desc {
+    color: #909090;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.45em;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 630px) {
+    .title {
+      font-size: 18px;
+    }
+  }
+  .row {
+    width: 95%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 494px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  .card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .card_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 9px 30px -6px rgba(24, 206, 15, 0.3);
+    position: relative;
+    transition: transform .4s;
+  }
+  
+  .fas, .fab {
+    display: inline-block;
+    position: absolute;
+    color: #63b563;
+    transform: translate(-52%, 75%);
+    font-size: 40px;
+  }
+  
+  .card_title {
+    font-size: 20px;
+    margin: 12px;
+    font-weight: bold;
+    color: #000000a8;
+    transition: color .2s;
+  }
+  
+  .card:hover .card_title {
+    color: #4bd482;
+  }
+  
+  .card:hover .card_img {
+    transform: translate(0px, -10px);
+  }
+  
+  .card_body {
+    color: #8c9490;
+    font-size: 16px;
+    padding: 0 5px;
+    line-height: 1.5;
+    word-spacing: 4px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+  body{
+  
+    background-color: #eee;
+  }
+  
+  .navbar-nav>li>a{
+  
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right:20px;
+    color: #fff;
+  }
+  
+  
+  .navbar-toggler {
+      padding: .20rem .50rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background-color: transparent;
+      border: 1px solid white;
+  
+      }
+  
+      .nav-link{
+  
+        color: #fff !important;
+      }
+  
+  
+  .wrapper{
+        width: 100%;
+      position: absolute;
+      height: 100%;
+      background-color: #000;
+      clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+      transition: 1s all;
+  }
+  
+  .navbar-brand{
+  
+    color:#fff;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-bottom: 4px;
+    font-size: 27px;
+  }
+  
+  .navbar-red:hover .wrapper{
+  
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+  
+  }
+  
+  .navbar-brand:hover{
+  
+    color:#fff;
+    
+  }
+  
+  .navbar-red{
+  
+    background-color: red;
+    color: #fff;
+  
+  }
+  
+  .all-show{
+  
+    z-index: 10;
+  } 
+  .gradient-brand-color {
+    background-image: -webkit-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+    background-image: -ms-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+    color: #fff;
+}
+.contact-info__wrapper {
+    overflow: hidden;
+    border-radius: .625rem .625rem 0 0
+}
+
+@media (min-width: 1024px) {
+    .contact-info__wrapper {
+        border-radius: 0 .625rem .625rem 0;
+        padding: 5rem !important
+    }
+}
+.contact-info__list span.position-absolute {
+    left: 0
+}
+.z-index-101 {
+    z-index: 101;
+}
+.list-style--none {
+    list-style: none;
+}
+.contact__wrapper {
+    background-color: #fff;
+    border-radius: 0 0 .625rem .625rem
+}
+
+@media (min-width: 1024px) {
+    .contact__wrapper {
+        border-radius: .625rem 0 .625rem .625rem
+    }
+}
+@media (min-width: 1024px) {
+    .contact-form__wrapper {
+        padding: 5rem !important
+    }
+}
+.shadow-lg, .shadow-lg--on-hover:hover {
+    box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
+}
